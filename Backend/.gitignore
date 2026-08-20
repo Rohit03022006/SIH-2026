@@ -1,0 +1,50 @@
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+pom.xml.note
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+.env
+.env.local
+*.properties.local
+*.yml.local
+*.yaml.local
+
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+.metadata/
+.classpath
+.project
+.settings/
+.factorypath
+*.launch
+.springBeans
+.sts4-cache/
+
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Linux / Vim
+*~
+*.swp

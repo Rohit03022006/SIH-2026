@@ -1,0 +1,96 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+# Ignore local environments to avoid committing massive package folders
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Raw and processed datasets (never commit massive text/image/csv datasets)
+data/
+datasets/
+*.csv
+*.tsv
+*.jsonl
+*.parquet
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# Model weights, serialized objects, and checkpoints
+models/
+checkpoints/
+weights/
+*.pkl
+*.pickle
+*.joblib
+*.pth
+*.pt
+*.onnx
+*.pb
+*.tflite
+*.ckpt
+
+# Jupyter Notebook checkpoints and autosaves
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# PyCharm, VS Code, and local editor settings
+.vscode/
+.idea/
+.project
+.pydevproject
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+logs/
+tensorboard/
+
+# MLflow run outputs
+mlruns/
+mlflow/
+
+wandb/
+
+# General logs and caches
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+.env*
+!.env.example
+secrets.toml
